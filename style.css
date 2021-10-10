@@ -13,12 +13,16 @@ html {
 .main-continer{
     width: 100%;
     height: 98vh;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .libary-continer{
     padding: 1em;
     display: flex;
     width: 70%;
+    height: 100%;
     flex-direction: column;
     justify-content: space-between;
 }

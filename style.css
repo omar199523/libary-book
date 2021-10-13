@@ -12,7 +12,7 @@ html {
 /* styling to main section */
 .main-continer{
     width: 100%;
-    height: 98vh;
+    height: 120vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -38,24 +38,38 @@ html {
     margin-bottom: 10px;
 }
 .one-shilf{
-    flex: 3 3 150px;
-    max-height: 180px;
+    flex: 1 1 400px;
+    /* max-height: 180px; */
     padding: 1.3em;
     display: flex;
+    justify-content: space-between;
 }
+
 .book-cont{
     display: flex;
+    align-items: stretch;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 120px;
+    width: 200px;
+    z-index: 2;
+}
+.img-cont{
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+.img-cont img{
+    width: 100%;
     height: 100%;
 }
 .title-cont{
-
+    font-size: 1.2em;
+    font-weight: bold;
 }
 .author-cont{
-
+    font-size: 1em;
+    font-weight: 600;
 }
 
 
@@ -68,6 +82,8 @@ html {
     width: 50%;
     height: 55vh;
     font-size: 1.2rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
     box-sizing:0 5px 5px #02897A,
                0 5px 10px #02897A,
                0 5px 15px #02897A;
@@ -106,6 +122,9 @@ html {
 }
 .display-active{
     display: flex;
+}
+button {
+    cursor: pointer;
 }
 
 

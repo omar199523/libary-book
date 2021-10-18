@@ -51,7 +51,7 @@ let books = [
         image: "https://img.thriftbooks.com/api/images/i/s/10525F0966ECC637C128504DCE803A1638D337CA.jpg"
     },
     {
-        title: "Frankenstein: or< The Modern",
+        title: "Frankenstein: or, The Modern",
         author: "Mary Wollstonecraft",
         image: "https://img.thriftbooks.com/api/images/i/s/AF57A92541329B1AFE8C775492F0747599322229.jpg"
     }
@@ -84,7 +84,7 @@ const createOneBook = (parent,{title,author,image})=>{
     imgCont.append(imgElem);
 
     const detalCont =document.createElement('div');
-    detalCont.className ="book-cont"
+    detalCont.className ="detal-cont"
     const titleCont=document.createElement('h3');
     titleCont.className="title-cont";
     titleCont.innerText= title;
